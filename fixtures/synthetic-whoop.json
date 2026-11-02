@@ -1,0 +1,511 @@
+{
+ "device": "whoop-5",
+ "synthetic": true,
+ "samples": [
+  {
+   "hostArrivalTimestamp": 1767614401.0,
+   "hr": 71,
+   "rrMs": [
+    830.8
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614402.0,
+   "hr": 69,
+   "rrMs": [
+    854.0,
+    875.6
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614403.0,
+   "hr": 69,
+   "rrMs": [
+    874.3
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614404.0,
+   "hr": 71,
+   "rrMs": [
+    837.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614405.0,
+   "hr": 69,
+   "rrMs": [
+    873.5
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614406.0,
+   "hr": 70,
+   "rrMs": [
+    842.2,
+    878.9
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614407.0,
+   "hr": 68,
+   "rrMs": [
+    856.5
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614408.0,
+   "hr": 67,
+   "rrMs": [
+    899.2
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614409.0,
+   "hr": 67,
+   "rrMs": [
+    906.7,
+    896.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614410.0,
+   "hr": 67,
+   "rrMs": [
+    873.9,
+    911.5
+   ],
+   "contact": false
+  },
+  {
+   "hostArrivalTimestamp": 1767614411.0,
+   "hr": 68,
+   "rrMs": [
+    874.4
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614412.0,
+   "hr": 67,
+   "rrMs": [
+    875.5
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614413.0,
+   "hr": 68,
+   "rrMs": [
+    897.4
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614414.0,
+   "hr": 69,
+   "rrMs": [
+    870.5,
+    854.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614415.0,
+   "hr": 69,
+   "rrMs": [
+    850.1,
+    891.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614416.0,
+   "hr": 69,
+   "rrMs": [
+    863.4
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614417.0,
+   "hr": 71,
+   "rrMs": [
+    839.3
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614418.0,
+   "hr": 70,
+   "rrMs": [
+    874.3,
+    838.5
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614419.0,
+   "hr": 70,
+   "rrMs": [
+    877.4,
+    836.1
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614420.0,
+   "hr": 72,
+   "rrMs": [
+    812.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614421.0,
+   "hr": 73,
+   "rrMs": [
+    828.4
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614422.0,
+   "hr": 74,
+   "rrMs": [
+    804.2,
+    802.8
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614423.0,
+   "hr": 75,
+   "rrMs": [
+    779.8
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614424.0,
+   "hr": 75,
+   "rrMs": [
+    789.2,
+    811.5
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614425.0,
+   "hr": 75,
+   "rrMs": [
+    774.1,
+    771.8
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614426.0,
+   "hr": 74,
+   "rrMs": [
+    792.5,
+    801.4
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614427.0,
+   "hr": 73,
+   "rrMs": [
+    835.9,
+    804.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614428.0,
+   "hr": 75,
+   "rrMs": [
+    786.3,
+    794.6
+   ],
+   "contact": false
+  },
+  {
+   "hostArrivalTimestamp": 1767614429.0,
+   "hr": 74,
+   "rrMs": [
+    811.0
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614430.0,
+   "hr": 74,
+   "rrMs": [
+    799.9
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614431.0,
+   "hr": 73,
+   "rrMs": [
+    804.4,
+    820.1
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614432.0,
+   "hr": 74,
+   "rrMs": [
+    816.3
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614433.0,
+   "hr": 75,
+   "rrMs": [
+    784.2
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614434.0,
+   "hr": 75,
+   "rrMs": [
+    776.9,
+    806.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614435.0,
+   "hr": 76,
+   "rrMs": [
+    786.0
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614436.0,
+   "hr": 78,
+   "rrMs": [
+    765.6,
+    775.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614437.0,
+   "hr": 77,
+   "rrMs": [
+    771.5,
+    778.3
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614438.0,
+   "hr": 76,
+   "rrMs": [
+    810.2
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614439.0,
+   "hr": 77,
+   "rrMs": [
+    765.9
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614440.0,
+   "hr": 76,
+   "rrMs": [
+    781.6,
+    810.2
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614441.0,
+   "hr": 78,
+   "rrMs": [
+    790.4,
+    766.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614442.0,
+   "hr": 79,
+   "rrMs": [
+    743.2
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614443.0,
+   "hr": 79,
+   "rrMs": [
+    748.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614444.0,
+   "hr": 78,
+   "rrMs": [
+    768.6,
+    777.0
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614445.0,
+   "hr": 78,
+   "rrMs": [
+    766.2,
+    769.5
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614446.0,
+   "hr": 78,
+   "rrMs": [
+    762.0
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614447.0,
+   "hr": 76,
+   "rrMs": [
+    815.6
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614448.0,
+   "hr": 77,
+   "rrMs": [
+    803.9
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614449.0,
+   "hr": 76,
+   "rrMs": [
+    777.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614450.0,
+   "hr": 78,
+   "rrMs": [
+    760.4
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614451.0,
+   "hr": 77,
+   "rrMs": [
+    770.7
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614452.0,
+   "hr": 78,
+   "rrMs": [
+    764.0
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614453.0,
+   "hr": 79,
+   "rrMs": [
+    738.9
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614454.0,
+   "hr": 78,
+   "rrMs": [
+    793.6
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614455.0,
+   "hr": 79,
+   "rrMs": [
+    745.9,
+    749.6
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614456.0,
+   "hr": 77,
+   "rrMs": [
+    797.6,
+    798.6
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614457.0,
+   "hr": 76,
+   "rrMs": [
+    772.4,
+    808.6
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614458.0,
+   "hr": 77,
+   "rrMs": [
+    787.9
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614459.0,
+   "hr": 76,
+   "rrMs": [
+    796.9
+   ],
+   "contact": true
+  },
+  {
+   "hostArrivalTimestamp": 1767614460.0,
+   "hr": 77,
+   "rrMs": [
+    793.8
+   ],
+   "contact": true
+  }
+ ]
+}

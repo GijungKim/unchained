@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.env
+!.env.example
+data/
+*.sqlite3
+*.sqlite3-journal
+.DS_Store
+# Real biometric captures must never be committed. Synthetic only in fixtures/.
+fixtures/*real*.json
+fixtures/*session*.json
+!fixtures/synthetic-*.json
+# Heavy reproducible artifacts: rendered frames, review stills, Cap projects,
+# and node_modules stay local. The shipped Whoop take is allow-listed below.
+demo/animated/frames/
+demo/animated/review/
+demo/animated/node_modules/
+demo/*.cap/
+# Ring-era takes are cut from the Whoop-scoped submission (kept locally).
+demo/take-*.mp4
+!demo/take-whoop-*.mp4
+# Ring-themed animated explainer: portfolio-only, not part of submission.
+demo/animated/

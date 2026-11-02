@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unchained — your hardware, your data</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="mark" aria-hidden="true"></span>
+    <span class="wordmark">Unchained</span>
+    <span class="tagline">your hardware · your data · your AI key</span>
+  </div>
+  <div id="status-pill" class="pill idle">idle</div>
+</header>
+
+<main>
+  <section class="device-bar">
+    <div class="device">
+      <span class="device-name">Whoop 5</span>
+      <span id="device-sub" class="device-sub">…</span>
+    </div>
+    <div class="controls">
+      <button id="replay" type="button" class="linklike" hidden>no strap handy? load a demo replay</button>
+      <button id="connect" type="button">Start stream</button>
+    </div>
+  </section>
+  <div id="progress-wrap" class="progress-wrap" hidden>
+    <div id="progress" class="progress"></div>
+  </div>
+  <p id="error" class="error" hidden></p>
+
+  <section class="readout card">
+    <div class="bpm-block">
+      <svg class="bpm-heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.9-10-9.3C.4 8.6 1.8 4.9 5.2 4.9c2 0 3.4 1.1 4.3 2.4.9-1.3 2.3-2.4 4.3-2.4 3.4 0 4.8 3.7 3.2 6.8C19.5 16.1 12 21 12 21z" transform="scale(0.92) translate(1,0.6)"/></svg>
+      <div id="bpm" class="bpm">—</div>
+      <div class="bpm-unit">bpm <span id="bpm-note" class="bpm-note"></span></div>
+      <div id="last-beat" class="last-beat"></div>
+    </div>
+    <div class="tiles">
+      <div class="tile"><span class="tile-label">hrv rmssd</span><span id="hrv" class="tile-value">—</span></div>
+      <div class="tile"><span class="tile-label">signal quality</span><span id="quality" class="tile-value">—</span></div>
+      <div class="tile"><span class="tile-label">valid beats</span><span id="beats" class="tile-value">—</span></div>
+      <div class="tile"><span class="tile-label">session</span><span id="session" class="tile-value small">—</span></div>
+    </div>
+  </section>
+
+  <section class="chart-section">
+    <div class="chart-head">
+      <span class="chart-title">heart rate</span>
+      <span class="chart-live">live · last 10 min</span>
+    </div>
+    <canvas id="chart" height="92"></canvas>
+    <div class="legend">
+      <span><i class="dot outlier"></i>all beats</span>
+      <span><i class="dot valid"></i>valid beats</span>
+      <span><i class="dot trend"></i>trend (rolling median)</span>
+    </div>
+    <div id="strip" class="strip" title="green = valid beat, amber = contact lost, dark = gap"></div>
+  </section>
+
+  <section class="chart-section">
+    <div class="chart-head">
+      <span class="chart-title">rhythm</span>
+      <span class="chart-live">rhythm from measured IBI · trace illustrative</span>
+    </div>
+    <canvas id="ecg" height="50"></canvas>
+  </section>
+
+  <section class="compare-section card">
+    <div class="chart-head"><span class="chart-title">sources</span><span id="compare-note" class="compare-note"></span></div>
+    <table id="compare-table">
+      <thead><tr><th>source</th><th>median</th><th>range</th><th>n</th><th>quality</th></tr></thead>
+      <tbody><tr><td colspan="5" class="empty">no data yet — connect the strap or load a replay</td></tr></tbody>
+    </table>
+  </section>
+
+  <section class="agent-section card card--paper">
+    <div class="chart-head"><span class="chart-title">muse</span><span id="agent-model" class="compare-note"></span></div>
+    <div class="agent-row">
+      <button id="fuse" type="button" class="secondary">Fuse sources</button>
+      <p id="verdict" class="verdict">Fuse the last 10 minutes into one reading.</p>
+    </div>
+    <form id="ask-form" class="agent-row">
+      <input id="ask-q" type="text" maxlength="500" autocomplete="off"
+        placeholder="Ask about the last 10 minutes…">
+      <button type="submit" class="secondary">Ask</button>
+    </form>
+    <p id="answer" class="verdict" hidden></p>
+  </section>
+</main>
+
+<footer>local only · no vendor app · no vendor cloud · no subscription</footer>
+<script src="/app.js?v=2"></script>
+</body>
+</html>
