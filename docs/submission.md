@@ -66,8 +66,8 @@ no private dependencies.
 
 ## Links
 
-- Repo (REQUIRED — rules say repos must be public): [push `unchained/` to GitHub, paste URL]
-- Demo video (live): [record the Whoop take, upload unlisted, paste URL]
+- Repo (REQUIRED — rules say repos must be public): https://github.com/GijungKim/unchained
+- Demo video (live): [upload unlisted, paste URL] — hero take in repo: `demo/take-whoop-04.mp4` (52s, 30fps, live stream + Fuse verdict + Q&A)
 - X cut: [post the take or a trimmed cut, paste URL]
 
 ## Built during the hackathon (rules require this disclosure)
